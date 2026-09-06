@@ -1,0 +1,212 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+8.OurLaundry
+</name>
+</assembly>
+<members>
+<member name="P:_8.OurLaundry.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.android">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.app_qr">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.apple_pay">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.certificate">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.clothes">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.customer_service">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.customer_success">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.dana">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.dddaa">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.dollar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.down_arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.download">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.dowrra__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.employees">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.employees__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.excel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.excel1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.fabric__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.fgf">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.gopay__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.kredivo__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.laundry">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.laundry__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.laundry_room">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.liquid_detergent">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.magnifier">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.magnifier__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.male_and_female">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.male_and_female__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.man">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.money">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.money_transfer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.ovo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.pay">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.pemandanagn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.polo_shirt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.qris">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.search_file">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.search_file__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.softener">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.supplier">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.testing">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.transaction">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.up_arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.visible_opened_eye_interface_option">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_8.OurLaundry.My.Resources.Resources.washing_machine">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:_8.OurLaundry.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

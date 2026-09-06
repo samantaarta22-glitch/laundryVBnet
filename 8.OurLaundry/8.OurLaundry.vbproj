@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1A4469C-368A-416E-A1AF-5677321D9407}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>_8.OurLaundry.My.MyApplication</StartupObject>
+    <RootNamespace>_8.OurLaundry</RootNamespace>
+    <AssemblyName>8.OurLaundry</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>8.OurLaundry.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>8.OurLaundry.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FemJenis_Layanan.Designer.vb">
+      <DependentUpon>FemJenis_Layanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FemJenis_Layanan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomer.Designer.vb">
+      <DependentUpon>FrmCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDashboard.Designer.vb">
+      <DependentUpon>FrmDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDetail_Transaksi.Designer.vb">
+      <DependentUpon>FrmDetail_Transaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDetail_Transaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDT.Designer.vb">
+      <DependentUpon>FrmDT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHelp.Designer.vb">
+      <DependentUpon>FrmHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIdPelanggan.Designer.vb">
+      <DependentUpon>FrmIdPelanggan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIdPelanggan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKaryawan.Designer.vb">
+      <DependentUpon>FrmKaryawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKaryawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPelayanan.Designer.vb">
+      <DependentUpon>FrmPelayanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPelayanan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPembayaran.Designer.vb">
+      <DependentUpon>FrmPembayaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPembayaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPewangi.Designer.vb">
+      <DependentUpon>FrmPewangi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPewangi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTransaksi.Designer.vb">
+      <DependentUpon>FrmTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTransaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleKoneksi.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FemJenis_Layanan.resx">
+      <DependentUpon>FemJenis_Layanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomer.resx">
+      <DependentUpon>FrmCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDashboard.resx">
+      <DependentUpon>FrmDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDetail_Transaksi.resx">
+      <DependentUpon>FrmDetail_Transaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDT.resx">
+      <DependentUpon>FrmDT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHelp.resx">
+      <DependentUpon>FrmHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIdPelanggan.resx">
+      <DependentUpon>FrmIdPelanggan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKaryawan.resx">
+      <DependentUpon>FrmKaryawan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPelayanan.resx">
+      <DependentUpon>FrmPelayanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPembayaran.resx">
+      <DependentUpon>FrmPembayaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPewangi.resx">
+      <DependentUpon>FrmPewangi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTransaksi.resx">
+      <DependentUpon>FrmTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dddaa" />
+    <None Include="Resources\fgf" />
+    <None Include="Resources\up-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-success.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laundry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male-and-female.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-service.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laundry %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-transfer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-file %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employees.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laundry-room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\softener.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male-and-female %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\certificate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clothes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fabric %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app-qr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dana.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ovo.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qris.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employees %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gopay %281%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kredivo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple-pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\washing-machine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\android.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polo-shirt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\liquid-detergent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pemandanagn.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dowrra %281%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visible-opened-eye-interface-option.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
