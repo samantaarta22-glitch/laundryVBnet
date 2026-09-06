@@ -20,7 +20,6 @@ Aplikasi desktop berbasis VB.NET untuk membantu pengelolaan bisnis laundry, mula
 4. Build dan Run project.
 
 ## 📸 Screenshot Aplikasi
-## 📸 Tampilan Aplikasi
 
 Berikut adalah tampilan antarmuka aplikasi OurLaundry:
 
@@ -28,7 +27,8 @@ Berikut adalah tampilan antarmuka aplikasi OurLaundry:
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9c7acb05-8a99-4a6d-8a06-d8ca34fd08d4" />
 *Gambar 1: Tampilan halaman utama untuk input pesanan laundry*
 
-Form Customer
+
+### Form Customer
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4d589517-7e78-4726-9e1e-ad4a979c8043" />
 *Gambar 2: Tampilan form customer*
 
