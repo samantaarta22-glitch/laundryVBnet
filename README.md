@@ -11,7 +11,7 @@ Aplikasi desktop berbasis VB.NET untuk membantu pengelolaan bisnis laundry, mula
 ## 🛠️ Tech Stack
 - **Bahasa Pemrograman:** Visual Basic .NET (VB.NET)
 - **IDE:** Microsoft Visual Studio 2010
-- **Database:** MySql
+- **Database:** MySQL
 ## 🚀 Cara Menjalankan Project
 1. Clone repository ini: `git clone https://github.com/samantaarta22-glitch/laundryVBnet.git`
 2. Buka file `.sln` menggunakan Microsoft Visual Studio.
