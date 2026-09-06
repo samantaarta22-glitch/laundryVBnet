@@ -25,7 +25,7 @@ Berikut adalah tampilan antarmuka aplikasi OurLaundry:
 
 ### Halaman Utama
 <img width="1365" height="709" alt="image" src="https://github.com/user-attachments/assets/3e85cc2c-7933-488d-9e7e-6ec63123eb4a" />
-> **Deskripsi:** Tampilan utama aplikasi yang berfungsi sebagai navigasi pusat (Main Menu). Dirancang dengan antarmuka yang bersih dan intuitif untuk memudahkan pengguna mengakses berbagai modul seperti data master, transaksi, dan laporan dengan cepat.
+Deskripsi: Tampilan utama aplikasi yang berfungsi sebagai navigasi pusat (Main Menu). Dirancang dengan antarmuka yang bersih dan intuitif untuk memudahkan pengguna mengakses berbagai modul seperti data master, transaksi, dan laporan dengan cepat.
 
 
 ### Form Customer
