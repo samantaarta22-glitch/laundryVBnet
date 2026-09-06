@@ -33,5 +33,21 @@ Berikut adalah tampilan antarmuka aplikasi OurLaundry:
 *Gambar 2: Tampilan form customer*
 
 
+### Form Pelayanan
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cdbca7f6-25f2-4bd1-acb9-a4b975b34b69" />
+*Gambar 3: Form ini menyediakan berbagai layanan cuci yaitu " Cuci Basah - Cuci Kering - Cuci Kering Setrika - Express Setrika - Premium Laundry*
 
 
+### Form Transaksi
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3bd5b556-b958-41f8-91fe-c1a276da0231" />
+*Gambar 4: Form Transaksi*
+
+
+### Form Detail Transaksi
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ef03d466-ae22-459d-9a21-7518eb4f2409" />
+*Gambar 5: Form Detail Transaksi*
+
+
+### Form Pembayaran 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6b2516b8-a64f-4dbe-9de1-9083b056e28d" />
+*Gambar 6: Form Pembayaran*
