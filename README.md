@@ -35,20 +35,20 @@ Deskripsi: Form untuk pengelolaan data pelanggan (CRUD - Create, Read, Update, D
 
 ### Form Pelayanan
 <img width="1366" height="703" alt="image" src="https://github.com/user-attachments/assets/6f471ae9-65c7-493b-aa61-657512d1c07a" />
-**Deskripsi:** Modul konfigurasi jenis layanan laundry. Admin dapat mendefinisikan berbagai paket layanan seperti Cuci Basah - Cuci Kering - Cuci Setrika - Express hingga Premium Laundry dengan pengaturan harga yang fleksibel sesuai berat atau satuan.
+Deskripsi: Modul konfigurasi jenis layanan laundry. Admin dapat mendefinisikan berbagai paket layanan seperti Cuci Basah - Cuci Kering - Cuci Setrika - Express hingga Premium Laundry dengan pengaturan harga yang fleksibel sesuai berat atau satuan.
 
 
 ### Form Transaksi
 <img width="1366" height="707" alt="image" src="https://github.com/user-attachments/assets/17c2c23e-8178-4c27-bd48-7e1709e52473" />
-**Deskripsi:** Antarmuka untuk input transaksi baru. Form ini mengintegrasikan data pelanggan dengan jenis layanan yang dipilih, menghitung estimasi berat, dan menentukan tanggal pengambilan. Sistem dirancang untuk meminimalisir kesalahan input data (human error).
+Deskripsi: Antarmuka untuk input transaksi baru. Form ini mengintegrasikan data pelanggan dengan jenis layanan yang dipilih, menghitung estimasi berat, dan menentukan tanggal pengambilan. Sistem dirancang untuk meminimalisir kesalahan input data (human error).
 
 
 ### Form Detail Transaksi
 <img width="1366" height="705" alt="image" src="https://github.com/user-attachments/assets/cdf75a12-583f-42ec-b4a5-d1ff0db5c13a" />
-**Deskripsi:** Tampilan rincian pesanan yang masuk. Form ini berfungsi untuk memonitor status pengerjaan laundry (apakah sedang dicuci, disetrika, atau siap ambil) serta rekapitulasi total biaya per item secara detail sebelum ke tahap pembayaran.
+Deskripsi: Tampilan rincian pesanan yang masuk. Form ini berfungsi untuk memonitor status pengerjaan laundry (apakah sedang dicuci, disetrika, atau siap ambil) serta rekapitulasi total biaya per item secara detail sebelum ke tahap pembayaran.
 
 
 ### Form Pembayaran 
 <img width="1366" height="708" alt="image" src="https://github.com/user-attachments/assets/71f1babb-7243-485e-b3e4-44f4f8fb8566" />
-**Deskripsi:** Modul kasir untuk proses checkout. Sistem akan menghitung total harga secara otomatis, menghitung kembalian, dan mencatat status pembayaran (Lunas/Belum Lunas). Mendukung pencatatan pembayaran yang akurat untuk laporan keuangan harian.
+Deskripsi: Modul kasir untuk proses checkout. Sistem akan menghitung total harga secara otomatis, menghitung kembalian, dan mencatat status pembayaran (Lunas/Belum Lunas). Mendukung pencatatan pembayaran yang akurat untuk laporan keuangan harian.
 
